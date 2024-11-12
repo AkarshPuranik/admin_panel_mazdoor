@@ -1,0 +1,5 @@
+package com.webmazdoor.webmazdoor
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity()

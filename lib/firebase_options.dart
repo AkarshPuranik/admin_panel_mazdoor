@@ -36,7 +36,7 @@ class DefaultFirebaseOptions {
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.windows:
-        return windows;
+
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -50,21 +50,12 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-      apiKey: "AIzaSyC454ElffCd7yQynG5Hr1KO-eMHGv8UC7E",
-      authDomain: "easy-mazdoor-559d2.firebaseapp.com",
-      projectId: "easy-mazdoor-559d2",
-      storageBucket: "easy-mazdoor-559d2.firebasestorage.app",
-      messagingSenderId: "206094610648",
-      appId: "1:206094610648:web:f16a68864716348e6b67ad",
-      measurementId: "G-9249HTEJVW");
+  apiKey: "AIzaSyBSZvUqAQflG9HbBQ6-L0srPgrjwWJ6W8o",
+  authDomain: "matbucks-erp.firebaseapp.com",
+  projectId: "matbucks-erp",
+  storageBucket: "matbucks-erp.appspot.com",
+  messagingSenderId: "751562297279",
+  appId: "1:751562297279:web:9672c9aa0a0e409dda1b0a",
+  measurementId: "G-ZRVTMT7CLX"
 
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyC454ElffCd7yQynG5Hr1KO-eMHGv8UC7E',
-    appId: '1:206094610648:web:de6ac20ad8c1a5d46b67ad',
-    messagingSenderId: '206094610648',
-    projectId: 'easy-mazdoor-559d2',
-    authDomain: 'easy-mazdoor-559d2.firebaseapp.com',
-    storageBucket: 'easy-mazdoor-559d2.firebasestorage.app',
-    measurementId: 'G-RY40XFF3J0',
-  );
-}
+  );}
